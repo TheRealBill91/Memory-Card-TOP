@@ -17,6 +17,23 @@ This is a memory card game built as part of The Odin Project curriculum. The pro
 - Setting up the folder structure for a React application
 - Creating functional components
 
+## Credits
+
+### Pictures
+
+- [Black lab](https://pixabay.com/photos/black-lab-black-labrador-retriever-4771308/)
+- [Brown bear](https://pixabay.com/photos/bear-head-brown-brown-bear-1283347/)
+- [Snake](https://pixabay.com/photos/speckled-rattlesnake-snake-animal-653642/)
+- [Tiger](https://pixabay.com/photos/tiger-siberian-tiger-snow-predator-1975790/)
+- [Hippo](https://pixabay.com/photos/hippo-water-wildlife-africa-animal-4486152/)
+- [Rhino](https://pixabay.com/photos/rhino-animal-pachyderm-2196317/)
+- [Cheetah](https://pixabay.com/photos/cheetah-animal-wildlife-mammal-3749168/)
+- [Cat](https://pixabay.com/photos/cat-pet-licking-animal-tabby-cat-114782/)
+- [Alligator](https://pixabay.com/photos/alligator-american-alligator-gator-439888/)
+- [Eagle](https://pixabay.com/photos/golden-eagle-bird-of-prey-scotland-2513225/)
+- [Shark](https://pixabay.com/photos/shark-animal-danger-teeth-fish-674867/)
+- [Elephant](https://pixabay.com/photos/elephant-trunk-head-elephant-trunk-1526709/)
+
 ## Tools Used
 
 - [React](https://react.dev/)
