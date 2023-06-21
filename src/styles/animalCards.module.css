@@ -1,0 +1,113 @@
+.catImgFrame {
+    background-image: url(../assets/pictures/cat.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.alligatorImgFrame {
+    background-image: url(../assets/pictures/alligator.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.blackLabImgFrame {
+    background-image: url(../assets/pictures/black-lab.jpg);
+    background-size: cover;
+    background-position-x: 75%;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.brownBearImgFrame {
+    background-image: url(../assets/pictures/brown-bear.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.snakeImgFrame {
+    background-image: url(../assets/pictures/speckled-rattlesnake.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: 60%;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.tigerImgFrame {
+    background-image: url(../assets/pictures/tiger.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.hippoImgFrame {
+    background-image: url(../assets/pictures/hippo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.rhinoImgFrame {
+    background-image: url(../assets/pictures/baby-rhino.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: 130%;
+    background-position: 65% 30%;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.cheetahImgFrame {
+    background-image: url(../assets/pictures/cheetah.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.eagleImgFrame {
+    background-image: url(../assets/pictures/golden-eagle.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: 50%;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.sharkImgFrame {
+    background-image: url(../assets/pictures/shark.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: 35%;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}
+
+.elephantImgFrame {
+    background-image: url(../assets/pictures/elephant.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: 75%;
+    height: 250px;
+    width: 85%;
+    border-radius: 8px 8px;
+}

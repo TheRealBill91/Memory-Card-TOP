@@ -1,41 +1,91 @@
 import "./styles/normalize.css";
 import "./styles/App.css";
-import { BlackLab } from "./components/animals/BlackLab";
-import { BrownBear } from "./components/animals/BrownBear";
-import { Snake } from "./components/animals/Snake";
-import { Tiger } from "./components/animals/Tiger";
-import { Hippo } from "./components/animals/Hippo";
-import { Rhino } from "./components/animals/Rhino";
-import { Cheetah } from "./components/animals/Cheetah";
-import { Cat } from "./components/animals/Cat";
-import { Alligator } from "./components/animals/Alligator";
-import { Eagle } from "./components/animals/Eagle";
-import { Shark } from "./components/animals/Shark";
-import { Elephant } from "./components/animals/Elephant";
+import { scrambleArray } from "./utils/scrambleArr";
+import { animalData } from "./animalData";
+import { Animal } from "./components/Animal";
+import { useEffect } from "react";
 import { Header } from "./components/Header";
+import { useState } from "react";
 
-function App() {
+export const App = () => {
+  const [currentScore, setCurrentScore] = useState(0);
+  const [highScore, setHighScore] = useState(0);
+  const [data, setData] = useState(animalData);
+
+  const newHighScore = () => {
+    if (highScore > 0) {
+      if (currentScore > highScore) {
+        setHighScore(currentScore);
+      }
+    } else {
+      setHighScore(currentScore);
+    }
+  };
+
+  const resetGameState = () => {
+    setCurrentScore(0);
+    setData(animalData);
+  };
+
+  const handlePlayerMove = (animalData) => {
+    if (animalData.alreadyClicked === true) {
+      newHighScore();
+      resetGameState();
+    } else {
+      setData(data.filter((item) => item.id !== animalData.id));
+      const newAnimalData = {
+        ...animalData,
+        alreadyClicked: true,
+      };
+      setData((data) => [...data, newAnimalData]);
+      setCurrentScore(currentScore + 1);
+    }
+  };
+
+  /* Scrambles array (and cards in UI) when component first mounts */
+  useEffect(() => {
+    const newArr = [...data];
+    scrambleArray(newArr);
+    setData(newArr);
+  }, []);
+
+  /*  */
+  useEffect(() => {
+    if (currentScore === 12) {
+      newHighScore();
+      resetGameState();
+    }
+  }, [currentScore]);
+
+  useEffect(() => {
+    const newArr = [...data];
+    scrambleArray(newArr);
+    setData(newArr);
+  }, [currentScore, highScore]);
+
   return (
     <>
-      <Header></Header>
+      <Header />
       <main>
+        <div className="topBarContainer">
+          <div>Max Score: 12</div>
+          <p>
+            <strong>Score: {currentScore}</strong>
+          </p>
+          <p>High Score: {highScore}</p>
+        </div>
         <div className="cardsContainer">
-          <BlackLab></BlackLab>
-          <BrownBear></BrownBear>
-          <Snake></Snake>
-          <Tiger></Tiger>
-          <Hippo></Hippo>
-          <Rhino></Rhino>
-          <Cheetah></Cheetah>
-          <Cat></Cat>
-          <Alligator></Alligator>
-          <Eagle></Eagle>
-          <Shark></Shark>
-          <Elephant></Elephant>
+          {data.map((animalData) => (
+            <Animal
+              key={animalData.id}
+              style={animalData.style}
+              handlePlayerMove={() => handlePlayerMove(animalData)}
+            ></Animal>
+          ))}
         </div>
       </main>
     </>
   );
-}
+};
 
 export default App;
