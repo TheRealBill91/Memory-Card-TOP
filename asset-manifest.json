@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Memory-Card-TOP/static/css/main.b3e480e1.css",
+    "main.js": "/Memory-Card-TOP/static/js/main.4bd45fef.js",
+    "static/media/cat.jpg": "/Memory-Card-TOP/static/media/cat.d71e05b6acdeb705774a.jpg",
+    "static/media/baby-rhino.jpg": "/Memory-Card-TOP/static/media/baby-rhino.a0dbf11af2c9b81c7e4f.jpg",
+    "static/media/hippo.jpg": "/Memory-Card-TOP/static/media/hippo.70fbe9bfbc161222b343.jpg",
+    "static/media/alligator.jpg": "/Memory-Card-TOP/static/media/alligator.d332cca230e20ba30691.jpg",
+    "static/media/elephant.jpg": "/Memory-Card-TOP/static/media/elephant.cf2626b3aa6c642f6589.jpg",
+    "static/media/brown-bear.jpg": "/Memory-Card-TOP/static/media/brown-bear.3f9ea0439a07877b3275.jpg",
+    "static/media/cheetah.jpg": "/Memory-Card-TOP/static/media/cheetah.bac400a1549603a5684c.jpg",
+    "static/media/tiger.jpg": "/Memory-Card-TOP/static/media/tiger.9d5523bd38cb394d0bbe.jpg",
+    "static/media/golden-eagle.jpg": "/Memory-Card-TOP/static/media/golden-eagle.0a60d1e6ef5c1bb00fdc.jpg",
+    "static/media/black-lab.jpg": "/Memory-Card-TOP/static/media/black-lab.8439d77f6bb0bb4393d1.jpg",
+    "static/media/shark.jpg": "/Memory-Card-TOP/static/media/shark.8333dc7c47f3942962f6.jpg",
+    "static/media/speckled-rattlesnake.jpg": "/Memory-Card-TOP/static/media/speckled-rattlesnake.bf09f4b95870adbeb20e.jpg",
+    "index.html": "/Memory-Card-TOP/index.html",
+    "main.b3e480e1.css.map": "/Memory-Card-TOP/static/css/main.b3e480e1.css.map",
+    "main.4bd45fef.js.map": "/Memory-Card-TOP/static/js/main.4bd45fef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3e480e1.css",
+    "static/js/main.4bd45fef.js"
+  ]
+}
