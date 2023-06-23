@@ -1,68 +1,72 @@
+body {
+  overflow-x: hidden;
+}
+
 main {
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 header {
-    width: 100vw;
-    height: 100px;
-    background-color: darkgrey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  height: 100px;
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-header>div {
-    display: flex;
-    color: whitesmoke;
-    justify-content: center;
-    align-items: center;
+header > div {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
 }
 
 .topBarContainer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 12px;
-    margin: 3% 0px 2% 0px;
-    height: 80px;
-    background-color: lightgray;
-    width: 50%;
-    border-radius: 8px 8px;
-    position: relative;
-    font-size: 1.3rem;
-    padding: 12px;
-    box-shadow: 0px 2px 4px 1px rgb(12 12 12 / 25%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 12px;
+  margin: 3% 0px 2% 0px;
+  height: 80px;
+  background-color: lightgray;
+  width: 50%;
+  border-radius: 8px 8px;
+  position: relative;
+  font-size: 1.3rem;
+  padding: 12px;
+  box-shadow: 0px 2px 4px 1px rgb(12 12 12 / 25%);
 }
 
 .cardsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    padding: 24px;
-    /*     outline: 1px solid black; */
-    width: fit-content;
-    max-width: 90vw;
-    justify-content: center;
-    margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px;
+  /*     outline: 1px solid black; */
+  width: fit-content;
+  max-width: 90vw;
+  justify-content: center;
+  margin-bottom: 5%;
 }
 
 .cardsContainer button {
-    height: 300px;
-    width: 250px;
-    border-radius: 8px 8px;
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
+  height: 300px;
+  width: 250px;
+  border-radius: 8px 8px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 
 .cardsContainer button:hover {
-    box-shadow: 0px 0px 10px 1px rgb(12 12 12 / 50%);
+  box-shadow: 0px 0px 10px 1px rgb(12 12 12 / 50%);
 }
